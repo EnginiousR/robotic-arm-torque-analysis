@@ -87,12 +87,12 @@ This task involves evaluating a robotic arm with **three joints** (three servo m
 
 | Problem            | Why It Happens (with 2kg)                                                                 |
 |--------------------|------------------------------------------------------------------------------------------|
-| 🔥 Overheating     | Motors work harder, gear friction adds heat                                             |
-| 🐢 Slow Movement   | Gear reduction sacrifices speed for torque                                              |
-| 🎯 Inaccuracy      | Gears introduce **backlash** — wobble and lag                                           |
-| ⚡ Current Drain    | More torque → higher current = faster battery depletion                                |
-| 🔩 Mechanical Stress | Heavier system and gear forces stress shafts and mounts                                |
-| ⚙️ Maintenance Need | More moving parts = higher chance of mechanical failure                                |
+|  Overheating     | Motors work harder, gear friction adds heat                                             |
+|  Slow Movement   | Gear reduction sacrifices speed for torque                                              |
+|  Inaccuracy      | Gears introduce **backlash** — wobble and lag                                           |
+|  Current Drain    | More torque → higher current = faster battery depletion                                |
+|  Mechanical Stress | Heavier system and gear forces stress shafts and mounts                                |
+| ⚙ Maintenance Need | More moving parts = higher chance of mechanical failure                                |
 
 ---
 
@@ -100,13 +100,13 @@ This task involves evaluating a robotic arm with **three joints** (three servo m
 
 | Method                        | What It Solves                                                 |
 |-------------------------------|------------------------------------------------------------------|
-| 🔋 Use Higher Torque Servos   | Avoids need for gearing, less stress on components             |
-| ⚖️ Add Counterweights         | Balances torque, reducing motor strain                         |
-| 🧱 Use Lightweight Materials   | Reduces overall required torque                                |
-| 📐 Redesign Arm Geometry      | Keeps center of mass closer to base                            |
-| 🤖 Stepper Motors + Drivers   | Provide higher torque + precision without servo lag            |
-| ⚙️ Harmonic Drives            | Compact gear solution without backlash                         |
-| 🚫 Limit Payload to 1.5 kg    | Stays within safe operating range of motors                    |
+|  Use Higher Torque Servos   | Avoids need for gearing, less stress on components             |
+|  Add Counterweights         | Balances torque, reducing motor strain                         |
+|  Use Lightweight Materials   | Reduces overall required torque                                |
+|  Redesign Arm Geometry      | Keeps center of mass closer to base                            |
+|  Stepper Motors + Drivers   | Provide higher torque + precision without servo lag            |
+|  Harmonic Drives            | Compact gear solution without backlash                         |
+|  Limit Payload to 1.5 kg    | Stays within safe operating range of motors                    |
 
 ---
 
