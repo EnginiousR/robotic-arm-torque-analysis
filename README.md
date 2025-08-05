@@ -28,22 +28,22 @@ This task involves evaluating a robotic arm with **three joints** (three servo m
 
 ---
 
-## 🧮 Torque Calculations — for 1 KG Payload
+##  Torque Calculations — for 1 KG Payload
 
 > **Force = Mass × Gravity = 1 × 9.81 = 9.81 N**
 
-### 🔸 Joint 3 (Wrist)
+###  Joint 3 (Wrist)
 - Load distance from joint: 0.04 m
 - Torque = 9.81 × 0.04 = **0.39 Nm**
 - With 1.5× safety margin = **0.59 Nm**
 
-### 🔸 Joint 2 (Elbow)
+###  Joint 2 (Elbow)
 - Load is 1 kg at 0.04 m + arm L3 (0.04 m from J2)
 - Total distance = 0.04 m
 - Torque = 9.81 × 0.04 = **0.39 Nm**
 - With 1.5× safety margin = **0.59 Nm**
 
-### 🔸 Joint 1 (Base)
+###  Joint 1 (Base)
 - Load at total reach (L2 + L3) = 0.10 + 0.04 = 0.14 m
 - Torque = 9.81 × 0.14 = **1.37 Nm**
 - With 1.5× safety margin = **2.06 Nm**
