@@ -92,7 +92,7 @@ This task involves evaluating a robotic arm with **three joints** (three servo m
 |  Inaccuracy      | Gears introduce **backlash** — wobble and lag                                           |
 |  Current Drain    | More torque → higher current = faster battery depletion                                |
 |  Mechanical Stress | Heavier system and gear forces stress shafts and mounts                                |
-| ⚙ Maintenance Need | More moving parts = higher chance of mechanical failure                                |
+|  Maintenance Need | More moving parts = higher chance of mechanical failure                                |
 
 ---
 
